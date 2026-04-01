@@ -8,7 +8,7 @@ A simple API automation testing project using Python, requests, and pytest.
 ## Project Structure
 ```text
 api-test-demo/
-|__test_login.py
-|__requireents.txt
-|__README.md
+├── test_login.py
+├── requirements.txt
+└── README.md
 ```
