@@ -1,14 +1,25 @@
 # api-test-demo
 A simple API automation testing project using Python, requests, and pytest.
 ## Tech Stack
-- Python
-- requests
-- pytest
-
+- requests 基本用法
+- pytest 运行机制
+- 参数化
+- 分层
+- 导入包
+- 返回体断言
+- 配置拆分
+- fixture
+- 报告
 ## Project Structure
 ```text
-api-test-demo/
-├── test_login.py
-├── requirements.txt
-└── README.md
+api_test_demo/
+├── api/
+│   ├── __init__.py
+│   └── login_api.py
+├── config/
+│   ├── __init__.py
+│   └── config.py
+├── tests/
+│   ├── __init__.py
+│   └── test_login.py
 ```
