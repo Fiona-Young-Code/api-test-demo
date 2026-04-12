@@ -1,0 +1,27 @@
+[
+  {
+    "title": "正常用户名密码",
+    "username": "testuser",
+    "password": "123456"
+  },
+  {
+    "title": "用户名为空",
+    "username": "",
+    "password": "123456"
+  },
+  {
+    "title": "密码为空",
+    "username": "testuser",
+    "password": ""
+  },
+  {
+    "title": "特殊字符用户名",
+    "username": "!@#$%",
+    "password": "abc123"
+  },
+  {
+    "title": "超长用户名",
+    "username": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "password": "123456"
+  }
+]
