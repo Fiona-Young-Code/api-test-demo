@@ -23,7 +23,8 @@ api_test_demo/
 │   ├── login_data.json
 ├── utils/
 │   ├── __init__.py
-│   ├── data_loader.json
+│   ├── data_loader.py
+│   ├── logger.py
 │── tests/
 │   ├── __init__.py
 │   ├── conftest.py
