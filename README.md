@@ -19,7 +19,13 @@ api_test_demo/
 ├── config/
 │   ├── __init__.py
 │   └── config.py
-├── tests/
+├── data/
+│   ├── login_data.json
+├── utils/
 │   ├── __init__.py
+│   ├── data_loader.json
+│── tests/
+│   ├── __init__.py
+│   ├── conftest.py
 │   └── test_login.py
 ```
